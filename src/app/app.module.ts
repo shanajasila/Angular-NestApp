@@ -12,6 +12,7 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
+import { NavAdminComponent } from './nav-admin/nav-admin.component';
 
 const myRoute:Routes=[
   {
@@ -33,6 +34,14 @@ const myRoute:Routes=[
   {
     path:"adminlogin",
     component:AdminLoginComponent
+  },
+  {
+    path:"course",
+    component:ViewCoursesComponent
+  },
+  {
+    path:"friend",
+    component:ViewFriendsComponent
   }
 ]
 
@@ -46,7 +55,8 @@ const myRoute:Routes=[
     NavbarHomeComponent,
     AdminLoginComponent,
     ViewCoursesComponent,
-    ViewFriendsComponent
+    ViewFriendsComponent,
+    NavAdminComponent
   ],
   imports: [
     BrowserModule,
