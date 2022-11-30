@@ -13,6 +13,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { NavAdminComponent } from './nav-admin/nav-admin.component';
+import { EmployLoginComponent } from './employ-login/employ-login.component';
 
 const myRoute:Routes=[
   {
@@ -42,6 +43,10 @@ const myRoute:Routes=[
   {
     path:"friend",
     component:ViewFriendsComponent
+  },
+  {
+    path:"emplog",
+    component:EmployLoginComponent
   }
 ]
 
@@ -56,7 +61,8 @@ const myRoute:Routes=[
     AdminLoginComponent,
     ViewCoursesComponent,
     ViewFriendsComponent,
-    NavAdminComponent
+    NavAdminComponent,
+    EmployLoginComponent
   ],
   imports: [
     BrowserModule,
