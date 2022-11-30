@@ -19,6 +19,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { NavEmpComponent } from './nav-emp/nav-emp.component';
 
+
 const myRoute:Routes=[
   {
     path:"",
@@ -82,7 +83,8 @@ const myRoute:Routes=[
     EmpRegistrationComponent,
     AddCourseComponent,
     AddFriendComponent,
-    NavEmpComponent
+    NavEmpComponent,
+   
   ],
   imports: [
     BrowserModule,
