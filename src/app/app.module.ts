@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarHomeComponent } from './navbar-home/navbar-home.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { ViewCoursesComponent } from './view-courses/view-courses.component';
 
 const myRoute:Routes=[
   {
@@ -42,7 +43,8 @@ const myRoute:Routes=[
     AboutComponent,
     ContactComponent,
     NavbarHomeComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    ViewCoursesComponent
   ],
   imports: [
     BrowserModule,
