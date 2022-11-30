@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./view-friends.component.css']
 })
 export class ViewFriendsComponent {
-  
+  friends:any=[]
 }
