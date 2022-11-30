@@ -19,7 +19,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { NavEmpComponent } from './nav-emp/nav-emp.component';
 import { FormsModule } from '@angular/forms';
-
+import {HttpClientModule} from '@angular/common/http'
 
 const myRoute:Routes=[
   {
@@ -91,7 +91,8 @@ const myRoute:Routes=[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRoute),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
