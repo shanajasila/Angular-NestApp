@@ -18,6 +18,7 @@ import { EmpRegistrationComponent } from './emp-registration/emp-registration.co
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { NavEmpComponent } from './nav-emp/nav-emp.component';
+import { FormsModule } from '@angular/forms';
 
 
 const myRoute:Routes=[
@@ -89,7 +90,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
