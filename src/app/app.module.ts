@@ -14,6 +14,7 @@ import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { NavAdminComponent } from './nav-admin/nav-admin.component';
 import { EmployLoginComponent } from './employ-login/employ-login.component';
+import { EmpRegistrationComponent } from './emp-registration/emp-registration.component';
 
 const myRoute:Routes=[
   {
@@ -62,7 +63,8 @@ const myRoute:Routes=[
     ViewCoursesComponent,
     ViewFriendsComponent,
     NavAdminComponent,
-    EmployLoginComponent
+    EmployLoginComponent,
+    EmpRegistrationComponent
   ],
   imports: [
     BrowserModule,
