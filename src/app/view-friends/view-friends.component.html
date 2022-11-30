@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row g-3 mt-4">
+       <table class="table  table-striped text-center">
+                        <thead>
+                             <tr>
+                                <th>Name</th>
+                                <th>Friend Name</th>
+                                <th>Friend Nickname</th>
+                                <th>Describe Your Friend </th>
+                             </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let i of friends">
+                                <td>{{i.name}}</td>
+                                <td>{{i.friendName}}</td>
+                                <td>{{i.friendNickName}}</td>
+                                <td>{{i.DescribeYourFriend}}</td>
+                            
+                            </tr>
+                        </tbody>
+                    </table>
+    </div>
+</div>
