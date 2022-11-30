@@ -16,6 +16,7 @@ import { NavAdminComponent } from './nav-admin/nav-admin.component';
 import { EmployLoginComponent } from './employ-login/employ-login.component';
 import { EmpRegistrationComponent } from './emp-registration/emp-registration.component';
 import { AddCourseComponent } from './add-course/add-course.component';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 
 const myRoute:Routes=[
   {
@@ -49,6 +50,18 @@ const myRoute:Routes=[
   {
     path:"emplog",
     component:EmployLoginComponent
+  },
+  {
+    path:"empreg",
+    component:EmpRegistrationComponent
+  },
+  {
+    path:"addcourse",
+    component:AddCourseComponent
+  },
+  {
+    path:"addfriend",
+    component:AddFriendComponent
   }
 ]
 
@@ -66,7 +79,8 @@ const myRoute:Routes=[
     NavAdminComponent,
     EmployLoginComponent,
     EmpRegistrationComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
