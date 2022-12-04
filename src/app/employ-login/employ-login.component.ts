@@ -11,8 +11,8 @@ export class EmployLoginComponent {
   Password=""
 constructor(private route:Router){}
 
-  log=()=>{
-    let log1={"username":this.empid,"Password":this.Password}
+  readvalues=()=>{
+    let log1={"empid":this.empid,"Password":this.Password}
     console.log(log1)
   
   if(this.empid=="1122" && this.Password=="12345") {

@@ -12,11 +12,10 @@ export class AdminLoginComponent {
   Password=""
 constructor(private route:Router){}
 
-  log=()=>{
-    let log1={"username":this.username,"Password":this.Password}
+  readvalues=()=>{
+    let log1:any={"username":this.username,"Password":this.Password}
     console.log(log1)
-  
-  if(this.username=="admin" && this.Password=="Nestdigital") {
+    if(this.username=="admin"&&this.Password=="nestdigital") {
     this.route.navigate(["/course"])
     
   } else {
